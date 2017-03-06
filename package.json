@@ -1,0 +1,22 @@
+{
+  "name": "clarebot",
+  "version": "0.0.1",
+  "description": "A discord bot for clare",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "clare",
+    "milf"
+  ],
+  "author": "JT",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "discord.js": "^11.0.0",
+    "ffmpeg": "0.0.4",
+    "node-opus": "^0.2.4"
+  }
+}
