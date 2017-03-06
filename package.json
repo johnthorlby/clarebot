@@ -11,6 +11,11 @@
     "clare",
     "milf"
   ],
+  "buildpacks": [
+    {
+      "url": "heroku create --buildpack https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
   "author": "JT",
   "license": "ISC",
   "dependencies": {
