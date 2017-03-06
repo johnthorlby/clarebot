@@ -59,7 +59,7 @@ client.on('message', message => {
     {
       message.member.voiceChannel.join().then(connection => {
         message.channel.sendMessage("Playing jobes");
-        const dispatcher = connection.playFile('./gun.mp3').catch(console.error);
+        const dispatcher = connection.playFile('./gun.mp3');
         dispatcher.on('end', () => {
           message.member.voiceChannel.leave();
         });
@@ -75,7 +75,7 @@ client.on('message', message => {
     {
       message.member.voiceChannel.join().then(connection => {
         message.channel.sendMessage("Playing Ba Dum Tss!");
-        const dispatcher = connection.playFile('./badum.mp3').catch(console.error);
+        const dispatcher = connection.playFile('./badum.mp3');
         dispatcher.on('end', () => {
           message.member.voiceChannel.leave();
         });
